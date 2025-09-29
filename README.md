@@ -42,11 +42,11 @@ Após as etapas acima, você poderá iniciar a prova. **O acesso à internet est
 
 ### 1.3. Como entregar a prova
 
-Basta apenas entregar o seu **arquivo style.css**. Para isso, acesse o formulário contido neste [link](https://www.jotform.com/252714863670058) e siga as instruções.
+Basta apenas entregar o seu **arquivo style.css** e **o seu arquivo de imagem (.png ou .jpg)**. Para isso, acesse o formulário contido neste [link](https://www.jotform.com/252714863670058) e siga as instruções.
 
 **ATENÇÃO: Será considerada apenas a primeira entrega feita, e que aconteça durante a permanência do(a) estudante em sala de aula.**
 
-> **O formulário aceita apenas arquivos `.css`.**
+> **O formulário aceita apenas arquivos `.css`, `.png` ou `.jpg`.**
 
 Demais instruções estão no caderno de prova, no arquivo [Enunciados](./enunciados.pdf).
 
