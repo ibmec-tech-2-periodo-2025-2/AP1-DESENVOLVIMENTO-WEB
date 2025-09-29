@@ -21,6 +21,7 @@
 | É permitida a entrada de alunos **até às 14h**. A partir das 14:10, a saída é permitida. |
 | Atenção às instruções da questão. A validação não passa apenas pelo funcionamento do código, mas **também pelo cumprimento do que foi solicitado nos enunciados**. |
 
+---
 
 ### 1.2. Preparação do ambiente
 
