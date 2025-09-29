@@ -46,3 +46,5 @@ Dessa forma, você deve avisar à professora que terminou, para que os arquivos 
 ⚠️ **Importante**: todos os arquivos necessários para a execução da prova já estarão criados. Você não deve criar nenhum outro arquivo. Arquivos fora do escopo das questões não serão considerados.
 
 Demais instruções estão no caderno de prova, no arquivo [Enunciados](./enunciados.pdf).
+
+> NÃO DEIXE DE ASSINAR A LISTA DE PRESENÇA.
