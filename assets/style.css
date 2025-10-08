@@ -28,6 +28,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  /* gap: 700px; usou gap: -1 /*
   /* border: 1px solid red; */
 }
 

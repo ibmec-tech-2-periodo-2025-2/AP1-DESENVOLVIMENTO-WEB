@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+    text-decoration: none;
+}
+:root {
+    --branco: #FDFDFD;
+    --preto: #121111;
+    --fundo-input: #E7E7E7;
+    --cinza: #787878;
+}
+body {
+    background-image: url(/assets/img/general-background.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+header {
+    color: var(--branco);
+    display: flex;
+    align-items: center;
+    height: 150px;
+    gap: 700px;
+}
+nav {
+    display: flex;
+    gap: 40px;
+}
+.last-link {
+    text-decoration: underline;
+    font-weight: 500;
+}
+nav a {
+    color: var(--branco);
+}
+.box-login h1 {
+    color: var(--preto);
+}
+.box-login {
+    width: 490px;
+    height: 490px;
+    background-color: var(--branco);
+    border: 1px solid var(--preto);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.form-inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    padding: 50px;
+}
+.icon-username {
+    position: absolute;
+    margin-right: 320px;
+    margin-bottom: 90px;
+    width: 20px;
+}
+.icon-password {
+    position: absolute;
+    margin-right: 320px;
+    width: 25px;
+}
+.form-inputs input {
+    border: 0.5px solid var(--preto);
+    background-color: var(--fundo-input);
+    width: 350px;
+    height: 40px;
+    padding-left: 25px;
+}
+.form-sub-inputs a:hover, .form-buttons a:hover {
+    text-decoration: underline;
+}
+#remember {
+    width: 15px;
+}
+.remember-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.remember-box label, .form-sub-inputs a {
+    color: var(--cinza);
+}
+.form-sub-inputs {
+    display: flex;
+    align-items: center;
+    width: 350px;
+    gap: 60px;
+    
+}
+
+.form-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.form-buttons button {
+    color: var(--branco);
+    background-color: var(--preto);
+    width: 150px;
+    height: 40px;
+}
+.form-buttons a {
+    color: var(--preto);
+}

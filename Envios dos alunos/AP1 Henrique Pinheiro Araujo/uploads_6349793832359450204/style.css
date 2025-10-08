@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 5fr;
+    gap: 10px;
+    background-image: url("./assets/img/general-background.png");
+}
+
+.box-login {
+    background-color: #fdfdfd;
+    place-items: center;
+    place-content: center;
+    height: 400px;
+    width: 400px;   
+    padding: 40px;
+    margin-left: 450px;
+}
+
+.form-inputs {
+    margin: 20px;
+}
+
+header {
+    grid-row: 1/2;
+    grid-column: 1/4;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+h1 {
+    display: flex;
+}
+
+#username {
+    background-color: #e7e7e7;
+    width: 300px;
+    height: 30px;
+    font-style: italic;
+    border: 1px solid #787878;
+}
+
+.icon-username {
+    height: 25px;
+    width: 25px;
+}
+
+.icon-password {
+    height: 25px;
+    width: 25px;
+}
+
+:root {
+    --branco: #fdfdfd;
+    --preto: #121111;
+    --cinza-inputs: #e7e7e7;
+    --cinza-texto: #787878;
+}
+
+div {
+    justify-content: center;
+}
+
+a {
+    font-style: italic;
+    color: #787878;
+}
+
+.form-buttons {
+    color: #121111;
+    justify-content: center;
+}
+
+:hover a {
+    font-style: italic;
+}
+
+.remember-label {
+    color: #787878;
+    font-style: italic;
+}

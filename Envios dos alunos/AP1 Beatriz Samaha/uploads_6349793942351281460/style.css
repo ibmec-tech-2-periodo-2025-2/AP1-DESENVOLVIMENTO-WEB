@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./img/general-background.png);
+    background-size: contain;
+    background-position: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows:repeat(5,1fr);
+}
+
+:root{
+  --cor-fundomain-textoheaderebutton:rgba(253, 253, 253, 1);
+  --cor-fundo-button:rgba(18, 17, 17, 1);
+  --cor-fundo-input:rgba(231, 231, 231, 1);
+  --cor-label-rememberme:rgba(120, 120, 120, 1);
+}
+
+.box-login{
+    grid-column: 2/3;
+    grid-row: 2/5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--cor-fundomain-textoheaderebutton);
+    height: 120%;
+    width: 95%;
+   
+}
+header{
+    grid-column: 1/6;
+    font-size: 20px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    color: var(--cor-fundomain-textoheaderebutton);
+    
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: aut;
+    grid-column: 5/7;
+    letter-spacing: 2px
+   
+
+    /* color: green; */
+}
+a[href=""]{
+    
+   
+    grid-column: 3/4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: var(--cor-fundomain-textoheaderebutton);
+    grid-column: 3/4;
+    grid-row: 1;
+    cursor: pointer;
+    
+   
+  
+
+   
+    
+}
+h1{
+    grid-column: 1/2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute top;
+    font-size: 30px;
+    /* margin-bottom: 10vh; */
+    font:bolder ;
+    
+    
+   
+}
+.form-inputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#username{
+    
+    width: 22.5vw;
+    height: 6.5vh;
+    background-color: var(--cor-fundo-input);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid var(--cor-label-rememberme);
+    /* background-image: url(./img/icons8-usuário-30.png); */
+}
+input::placeholder{
+    padding: 18px;
+    
+}
+.icon-username{
+    
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    width: 1.1vw;
+    position: absolute;
+    
+    
+}
+.icon-password{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    width: 1.1vw;
+    position: absolute;
+    background-position: left;
+}
+.remember-box{
+   color: var(--cor-label-rememberme);
+   margin-left: -13vw;
+   
+}
+
+.remember-label{
+    margin-right: -15vw;
+    display: inline-block;
+}
+
+.form-sub-inputs{
+    display: grid;
+    flex-direction: row;
+    grid-template-columns: repeat(4,1fr);
+   padding: 10px;
+}
+
+.last-link{
+    color: var(--cor-fundomain-textoheaderebutton);
+    font-weight: bolder;
+    letter-spacing: 1px;
+    
+}
+.form-buttons{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   
+   margin-bottom: -20px;
+   padding: 40px;
+}
+button{
+   color: var(--cor-fundomain-textoheaderebutton);
+   background-color: var(--cor-fundo-button);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   width: 10vw;
+   height: 6vh;
+   border: none;
+   margin-top: -3vh;
+}
+a[href='#']{
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   flex-direction: column;
+   color: var(--cor-label-rememberme);
+   margin-bottom: 3px;
+   margin-bottom: -10vh;
+   font-size: 13px;
+   grid-column: 4/5;
+}
