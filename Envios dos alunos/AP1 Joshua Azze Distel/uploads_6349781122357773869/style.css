@@ -1,0 +1,127 @@
+:root {
+    --branco:(#FDFDFD);
+    --preto:(#121111);
+    --cinza-claro:(#E7E7E7);
+    --cinza-escuro:(#787878);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+header a {
+    font-style: normal;
+    font-family: poppins;
+    margin: none;
+}
+header nav {
+    margin: 0px 100px;
+}
+body {
+    background-image: url(./img/general-background.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+header {
+    color: #FDFDFD;
+    width: 1350px;
+    height: 170px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    gap: 470px;
+    font-size: 15px;
+}
+.link-header{
+margin: 10px 30px;
+}
+.link-header{
+    color: #FDFDFD;
+    margin: none;
+}
+
+.last-link {
+    font-weight: bold;
+    color: #FDFDFD;
+}
+.box-login {
+    background-color: #FDFDFD;
+    height: 463px; width: 463px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+button {
+    background-color: #121111;
+    color: #FDFDFD;
+    height: 37px; width: 146px;
+}
+input {
+    height: 37px;
+    width: 335px;
+    position: relative;
+    gap: 10px;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 5px;
+    font-size: 12px;
+    color: #E7E7E7;
+}
+.login-form img {
+    height: 17px; width: 17px;
+    position: absolute;
+    left: 476px;
+}
+.form-sub-inputs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    width: 335px;
+    font-size: small;
+    font-style: italic;
+    font-weight: 300;
+    color: #787878;
+}
+.remember-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#checkbox{
+    height: 11px; width: 11px;
+}
+.form-inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+label{
+    padding: 5px;
+}
+::placeholder {
+    padding: 2px 25px;
+}

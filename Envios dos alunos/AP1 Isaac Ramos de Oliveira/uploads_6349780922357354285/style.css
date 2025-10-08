@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --cor-base: #fdfdfd;
+    --cor-secundaria: #121111;
+    --cor-input: #e7e7e7;
+    --cor-renember-forgot: #787878;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+
+    font-family: "Poppins";
+
+    background-image: url(./img/general-background.png);
+    background-size: cover;
+    background-position: center;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent; 
+    padding: 0 80px;
+    
+    color: var(--cor-base);
+    
+    grid-column: 1/13;
+    grid-row: 1/4;
+}
+
+nav a{
+    font-style: inherit;
+    text-decoration: none;
+    color: #fff;
+    margin: 20px;
+    font-weight: 300;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+.last-link{
+
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+
+.box-login{
+    background-color: var(--cor-base);
+
+    grid-column: 5/9;
+    grid-row: 4/12;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-inputs{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    gap: 5px;
+}
+
+.box-login h1{
+    display: flex;
+    margin: 50px;
+
+    font-weight: 800;
+}
+
+.icon-username, .icon-password {
+    position: relative;
+    width: 20px;
+    height: 20px;
+
+    right: -5px;
+
+    top: -35px;
+
+
+}
+
+
+input[type="password"], input[type="text"]{
+    position: relative;
+    width: 300px;
+    height: 40px;
+
+    border: 1px solid var(--cor-secundaria);
+    background: var(--cor-input);
+    outline: none;
+    font-style: italic;
+    padding: 0 0 0 30px ;
+    
+}
+
+input[type="password"]::placeholder, input[type="text"]::placeholder{
+
+    position: absolute;
+    color: var(--cor-secundaria);
+    
+}
+
+.form-sub-inputs, .form-inputs a{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    color: var(--cor-renember-forgot);
+    text-decoration: none;
+    font-style: italic;
+    font-weight: 400;
+    font-size: small;
+
+}
+
+.form-inputs a:hover{
+    text-decoration: underline;
+
+}
+
+.form-buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 5px;
+}
+
+.form-buttons button{
+
+    width: 150px;
+    height: 40px;
+
+    border: none;
+
+    background-color: var(--cor-secundaria);
+    color: var(--cor-base);
+
+    margin-top: 20px;
+}
+
+.form-buttons button:hover{
+    cursor: pointer;
+}
+
+.form-buttons a{
+    font-size: smaller;
+    text-decoration: none;
+    color: var(--cor-secundaria);
+}
+
+.form-buttons a:hover{
+    text-decoration: underline;
+}
